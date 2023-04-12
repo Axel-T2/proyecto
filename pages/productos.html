@@ -7,6 +7,50 @@
     <title>productos</title>
 </head>
 <body>
-    <h3>productos de prueba</h3>
+    <header>
+        <h2>soy la cabeza de la pagina</h2>
+    </header>
+
+    <nav>
+        <h2> soy la navegacion</h2>
+        <!-- listas desordenadas -->
+        <ul><!-- listas desordenadas -->
+            <li><!-- anclas:permiten la navegacion -->
+                <a href="../index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./productos.html">PRODUCTOS</a>
+            </li>
+            <li>
+                <a href="./sucursales.html">SUCURSALES</a>
+            </li>
+            <li>
+                <a href="./ivan.html">IVAN</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>productos de prueba y formularios</h1>
+        <form method="get">
+            <label for="name">Nombre: </label>
+            <input type="text" id="nombre" name="nombe" min="5" max="40" required>
+            <br>
+
+            <label for="edad">Edad</label>
+            <input type="number">
+            <br>
+
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="nacimiento" name="nacimiento">
+            <br>
+
+            <input type="button" id="ejemplo" value="enviar datos">
+
+            <button type="submit">soy un boton y envio datos</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

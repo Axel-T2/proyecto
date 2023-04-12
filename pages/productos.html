@@ -31,26 +31,62 @@
     </nav>
     <main>
         <h1>productos de prueba y formularios</h1>
-        <form method="get">
-            <label for="name">Nombre: </label>
-            <input type="text" id="nombre" name="nombe" min="5" max="40" required>
+        <form id="MiFormulario">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombe" minlength="3" maxlength="10" required>
             <br>
 
             <label for="edad">Edad</label>
-            <input type="number">
+            <input type="number" placeholder="edad" required>
+            <br>
             <br>
 
-            <label for="nacimiento">Fecha de nacimiento</label>
+            <label for="nacimiento">Fecha de nac:</label>
             <input type="date" id="nacimiento" name="nacimiento">
             <br>
-
+            <br>
+            <label for="password">password</label>
+            <input type="password" minlength="6" maxlength="14" id="password"
+            name="password" required>
+            <br>
+            <br>
+            <label for="emai">Email:</label>
+            <input type="email" name="email" id="email" placeholder="tu email capo" required>
+            <br>
+            <br>
+            <label for="genero">Genero:</label>
+            <br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" value="Masculino">
+            <br>
+            <label for="femenino">Femenino</label>
+            <input type="radio" value="Femenino">
+            <br>
+            <label for="cuadrito">cuadrito de relleno:</label>
+            <input type="checkbox">
+            <br>
+            <input type="text-area">
+            <br>
+            <label for="comentarios">Comentarios:</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Comentarios"></textarea>
             <input type="button" id="ejemplo" value="enviar datos">
 
             <button type="submit">soy un boton y envio datos</button>
         </form>
     </main>
     <footer>
-
+        <hr>
+        <h2>Direcion a comunicarse:</h2>
+        <address>
+            Giambruno 8480
+        </address>
+        <p>
+            <a href="mailto:vilcan646@gmail.com">vilcan646@gmail.com</a>
+        </p>
+        <p>
+            <a href="tel:1164492726">116449726</a>
+        </p>
     </footer>
 </body>
 </html>
